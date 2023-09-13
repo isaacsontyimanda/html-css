@@ -1,0 +1,15 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+h1 {
+    background-color: rgb(188, 205, 211);
+    color:darkblue
+}
+
+h2 {
+    color: rgb(182, 32, 32);
+}

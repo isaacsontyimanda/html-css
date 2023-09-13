@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        a {
+            color: rgb(81, 81, 245);
+            text-decoration: none;  
+        }
+
+        a:visited {
+            color: rgba(121, 121, 0, 0.651);
+        }
+
+        a:hover {
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgba(139, 0, 0, 0.774);
+        }
+
+        .especial {
+            background-image: linear-gradient(to right, rgb(224, 98, 98), rgb(162, 93, 226));
+            color: white;
+        }
+        
+        .especial::before {
+            content: ' ➡ ';
+        }
+
+        .especial::after {
+            content: ' ⬅';
+        }
+
+        abbr {
+            text-decoration: none;
+        }
+
+        abbr:hover {
+            color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+    <ul type="square">
+        <li><a href="https://www.instagram.com/isaacson_sn" target="_blank" class="especial"><abbr title="Acesse meu instagram clicando nesse link">Meu Instagram</abbr></a></li>
+        <li><a href="https://youtube.com/snsoftgames" target="_blank" class="especial"><abbr title="Acesse o canal da SN SoftGames no YouTube, clicando nesse link">Meu Canal do YouTube</abbr></a></li>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank"><abbr title="Acesse o repositório público do prof. Gustavo Guanabara, clicando nesse link">Meu Github</abbr></a></li>
+    </ul>
+</body>
+</html>

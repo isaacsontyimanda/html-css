@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinámica</h1>
+
+    <p>Abra esse site em vários tipos de dispositivos ou diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-media.png" type="image/png">
+        <img src="imagens/imagem-grande.png" alt="imagem flexível">
+    </picture>
+
+    <h2>Baixe ou Reproduza sua Música Aqui</h2>
+
+    <p>Aqui, tu podes baixar ou reproduzir as suas músicas preferidas direitamente do nosso site. <br>Segue abaixo as listas disponíveis em nosso site.</p>
+
+    <p>Ouça a música de "Juice WRLD" intitulada <abbr title="tradução: Quem Atirou no Cupido!">"Who Shot Cupid!"</abbr>
+    </p>
+
+    <audio preload="metadata" controls loop>
+        <source src="media/12-Who-Shot-Cupid-(SongsLover.com).mp3" type="audio/mpeg">
+    </audio>
+
+    <ul type="square">
+        <li>
+            <a href="media/12-Who-Shot-Cupid-(SongsLover.com).mp3" download="Baixar Música" type="audio/mpeg">Clique para baixar</a>
+        </li>
+    </ul>
+
+    <p>Ouça a música de "Juice WRLD" intitulada <abbr title="tradução: Lugar Escuro">"Dark Place"</abbr>
+    </p>
+
+    <audio preload="metadata" controls loop>
+        <source src="media/Juice-WRLD-DARK-PLACE(demo)(playvk.com).mp3" type="audio/mpeg">
+    </audio>
+
+    <ul type="square">
+        <li>
+            <a href="media/Juice-WRLD-DARK-PLACE(demo)(playvk.com).mp3" download="Baixar Música" type="audio/mpeg">Clique para baixar</a>
+        </li>
+    </ul>
+</body>
+</html>
