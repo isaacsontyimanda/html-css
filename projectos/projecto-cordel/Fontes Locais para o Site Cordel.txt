@@ -1,0 +1,9 @@
+Font01: Aquino Demo
+Font02: Edwardian Script ITC
+Font03: Brush Script MT
+Font04: Eras Bold ITC
+Font05: Freestyle Script
+
+
+font-family: 'Edwardian Script ITC';
+    font-weight: bold;
