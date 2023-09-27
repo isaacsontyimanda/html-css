@@ -1,105 +1,82 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
 }
 
-body {
-    background-color: white;
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
 }
 
 header {
-background-color: black;
-color: white;
-height: 150px;
-text-align: center;
-}
-header h1 {
-    font-family: 'Aquino Demo';
-    padding-top: 30px;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.322);
-}
-header p {
-    color: rgb(224, 224, 224);
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.322);
-}
-header p a {
-    text-decoration: none;
-    color: white;
-}
-header p a:hover {
-    background-color: white;
-    color: black;
-    text-decoration: underline;
-    font-weight: bold;
-    border-radius: 10px 20px;
-    padding: 6px;
-}
-abbr {
-    text-decoration: none;
-}
-
-main p {
-    font-family: 'Freestyle Script';
-    font-size: 2em;
-    font-weight: normal;
-    line-height: 42px;
-    width: 270px;
-    padding-left: 20px;
-    padding-top: 50px;
-}
-main section {
-    margin-top: 70px;
-}
-main section > article.fundo01 {
-    height: 500px;
-    width: 100%;
-    background-image: url('imagens/background001.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 60px;
-    padding-left: 20px;
-    box-shadow: inset 4px 5px 8px 2px rgba(0, 0, 0, 0.315);
-}
-main section article > p {
-    background-color: rgba(0, 0, 0, 0.356);
-    color: white;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.507);
-    border-radius: 10px;
-}
-main section > article.fundo02 {
-    height: 500px;
-    width: 100%;
-    background-image: url('imagens/background002.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding-top: 60px;
-    padding-left: 20px;
-    box-shadow: inset 4px 5px 8px 2px rgba(0, 0, 0, 0.315);
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-a:hover {
-    background-color: white;
-    color: black;
-    text-decoration: underline;
-    font-weight: bold;
-    border-radius: 7px 17px;
-    padding: 6px;
-}
-footer p {
     background-color: black;
     color: white;
-    font-size: 0.8em;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--font2);
+    font-size: 10vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51,51,51);
+    color: white;
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(0, 0, 0, 0.253);
+}
+
+footer {
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 40px;
 }
