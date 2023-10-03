@@ -18,11 +18,15 @@
         }
         th {
             border: 1px solid black;
+            background-color: lightgreen;
         }
 
         td {
             border: 1px solid black;
             padding: 3px;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
         td.head {
             text-align: center;
@@ -44,12 +48,12 @@
         </caption>
         <thead>
             <tr>
-                <th scope="col" class="head">Grupo</th> <th scope="col" class="head">Nomes</th> <th scope="col" colspan="3" class="head">Filmes</th>
+                <th scope="col" class="head">Grupo</th> <th scope="col" class="head">Nomes</th> <th scope="colgroup" colspan="3" class="head">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="row" rowspan="3" class="sexo">Mulheres</th> <td>Ana Naria Santos</td> <td>Alien</td> <td>Rambo</td> <td>Vingadores</td>
+                <th scope="rowgroup" rowspan="3" class="sexo">Mulheres</th> <td>Ana Naria Santos</td> <td>Alien</td> <td>Rambo</td> <td>Vingadores</td>
             </tr>
             <tr>
                 <td>Beatriz Souza</td> <td>Hulk</td> <td>Inception</td> <td>Batman</td>
@@ -58,13 +62,17 @@
                 <td>Cláudia Melo</td> <td>Oblivion</td> <td>Matrix</td> <td>Big Hero</td>
             </tr>
             <tr>
-                <th scope="row" rowspan="3" class="sexo">Homens</th> <td>Bruno Mendonça</td> <td>Intocáveis</td> <td>Amnésia</td> <td>Gladiador</td>
+                <th scope="rowgroup" rowspan="3" class="sexo">Homens</th> <td>Bruno Mendonça</td> <td>Intocáveis</td> <td>Amnésia</td> <td>Gladiador</td>
             </tr>
             <tr>
                 <td>Daniel Lourenço</td> <td>Wall-E</td> <td>Oldboy</td> <td>Dangal</td>
             </tr>
             <tr>
                 <td>Fabiano Mota</td> <td>Star Wars 5</td> <td>Taxi Driver</td> <td>Toy Story</td>
+            </tr>
+            <tr>
+                <th colspan="4" scope="col">Total</th>
+                <td>1000</td>
             </tr>
         </tbody>
     </table>
