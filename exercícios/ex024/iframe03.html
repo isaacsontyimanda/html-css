@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body {
+            background-color: rgba(0, 0, 0, 0.822);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+        h1 {
+            color: aqua;
+        }
+        ul {
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            line-height: 1.5em;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: aqua;
+        }
+        iframe {
+            background-color: white;
+            display: block;
+            width: 95vh;
+            height: 300px;
+            border: 2px solid aqua;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est architecto reprehenderit tempora illum perspiciatis? Voluptatibus ipsa, eos suscipit modi doloremque sit sapiente praesentium repellendus molestias temporibus eligendi esse quia non!
+    </p>
+    <ul>
+        <li>
+            <a href="paginas-externas/pag01.html" target="quadro">Tabela</a>
+        </li>
+        <li>
+            <a href="paginas-externas/pag02.html" target="quadro">Cordel Moderno</a>
+        </li>
+        <li>
+            <a href="paginas-externas/pag03.html" target="quadro">História do Boneco Android</a>
+        </li>
+    </ul>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex animi, dolores vel odio sed, a inventore suscipit impedit eum, nesciunt perspiciatis quia placeat ducimus voluptatibus doloribus ipsam praesentium repellat commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id repudiandae aut accusamus molestiae suscipit inventore voluptatibus nesciunt porro saepe rerum, beatae delectus rem, soluta doloribus perferendis pariatur numquam asperiores cupiditate.
+    </p>
+    <iframe id="tela" name="quadro" srcdoc="<img src='imagens/nerd.ico'> <h1>Olá! Nerd.</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis necessitatibus ullam, sapiente vitae nihil quibusdam a modi rerum aliquam ratione eveniet architecto quis animi repellat velit rem ipsa! Dignissimos, iste?</p>">
+        <p>Infelizmente seu navegador não é compatível com esta funcionalidade. <br>Não se preocupe! podes acessar as páginas a partir daqui: <br>
+        <ul>
+            <li><a href="paginas-externas/pag01.html">Tabela de Venda</a></li>
+            <li><a href="paginas-externas/pag02.html">Cordel Moderno</a></li>
+            <li><a href="paginas-externas/pag03.html">Android History</a></li>
+        </ul>
+    </p>
+    </iframe>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe reiciendis impedit dolorem nesciunt tempore voluptas totam deleniti accusamus veritatis culpa odio exercitationem ab similique sit, minima quaerat laboriosam repellendus eveniet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, repellat consequatur ad iure accusamus quod, ab officiis distinctio natus saepe laboriosam, omnis adipisci aut magnam veritatis corrupti. Praesentium, quidem sequi.
+    </p>
+</body>
+</html>

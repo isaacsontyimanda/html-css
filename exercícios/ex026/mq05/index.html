@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <div id="menu02">
+            <img src="img/menu02.png" alt="menu" id="menu" onclick="clickMenu()">
+        </div>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 01</a></li>
+                <li><a href="#">Opção 02</a></li>
+                <li><a href="#">Opção 03</a></li>
+                <li><a href="#">Opção 04</a></li>
+                <li><a href="#">Opção 05</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, optio. Corporis nobis rerum voluptates ipsam, voluptatum cupiditate modi enim, quia inventore culpa velit, eaque dignissimos illo! Accusantium pariatur obcaecati neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ipsam perspiciatis laboriosam eum sit consequuntur maxime modi suscipit velit eaque commodi voluptate ipsum beatae unde nobis fugit optio repellat aspernatur.
+            </p>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet aut maxime illum ad corporis? Nemo, voluptatum necessitatibus neque consequuntur vel et dicta dolores illo ex sed ab. Ad, laudantium odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae saepe nobis distinctio consectetur, provident exercitationem velit, corporis at iusto adipisci aliquam, voluptates officiis! Corporis voluptatibus facilis praesentium ad temporibus quo.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic unde, iste exercitationem, quisquam ipsam pariatur porro blanditiis quasi culpa nesciunt velit non dolore voluptatem natus distinctio facilis officia eveniet modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi consequuntur enim qui eos cumque cupiditate, necessitatibus ut, ad, ab illo in vero nostrum quis iusto? Distinctio fuga earum repellat facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero aspernatur officiis ducimus praesentium voluptas repellendus earum distinctio, unde recusandae eius perferendis sequi non deserunt, eveniet consequuntur minus harum nam eaque.
+            </p>
+        </article>
+    </main>
+    <footer>
+        <p>
+            &copy; site criado por <abbr title="Criador do site!"><a href="#">Isaacson Tyimanda</a></abbr>
+            &reg; todos os direitos reservados.
+        </p>
+    </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

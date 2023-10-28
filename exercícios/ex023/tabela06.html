@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            text-align: justify;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-weight: bold;
+            padding: 5px;
+        }
+        th {
+            background-color: yellowgreen;
+            color: white;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        td.produto {
+            font-weight: bold;
+        }
+        tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+        div#resp {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela em Tela Pequena</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sit. Porro aspernatur odio tempora quisquam sint pariatur nemo ea odit molestias officiis, minus debitis, consectetur ad possimus saepe explicabo doloremque?
+</p>
+<div id="resp">
+    <table>
+        <caption>Tabela de Preços da "Loja SN Technology"</caption>
+        <thead>
+            <tr>
+                <th>Smartphones</th>
+                <th>Preço</th>
+                <th>Notebooks</th>
+                <th>Preço</th>
+                <th>PlayStation</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="produto">Samsung Galaxy J5Pro</td>
+                <td>50.000kz</td>
+                <td class="produto">DELL Latitude</td>
+                <td>600.000kz</td>
+                <td class="produto">PlayStation</td>
+                <td>15.000kz</td>
+            </tr>
+            <tr>
+                <td class="produto">Samsung Galaxy A21s</td>
+                <td>100.000kz</td>
+                <td class="produto">HP ProBook</td>
+                <td>550.000kz</td>
+                <td class="produto">PlayStation2</td>
+                <td>30.000kz</td>
+            </tr>
+            <tr>
+                <td class="produto">Samsung Galaxy S23 Ultra 5G</td>
+                <td>850.000kz</td>
+                <td class="produto">Lenovo ThinkPad</td>
+                <td>390.000kz</td>
+                <td class="produto">PlayStation3</td>
+                <td>50.000kz</td>
+            </tr>
+            <tr>
+                <td class="produto">iPhone 12Pro Max</td>
+                <td>250.000kz</td>
+                <td class="produto">ASUS Tufus Gaming</td>
+                <td>890.000kz</td>
+                <td class="produto">PlayStation3 Super Slim</td>
+                <td>60.000kz</td>
+            </tr>
+            <tr>
+                <td class="produto">iPhone 13Pro Max</td>
+                <td>500.000kz</td>
+                <td class="produto">MacBook Pro13</td>
+                <td>500.000kz</td>
+                <td class="produto">PlayStation4 Pro</td>
+                <td>200.000kz</td>
+            </tr>
+            <tr>
+                <td class="produto">iPhone 14Pro Max</td>
+                <td>800.000kz</td>
+                <td class="produto">MacBook Pro 17</td>
+                <td>1.000.000kz</td>
+                <td class="produto">PlayStation5 Digital</td>
+                <td>400.000kz</td>
+            </tr>
+            <tr>
+                <td class="produto">iPhone 15Plus</td>
+                <td>1.250.000kz</td>
+                <td class="produto">Toshiba 5600</td>
+                <td>280.000kz</td>
+                <td class="produto">PlayStation5 Disco</td>
+                <td>500.000kz</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, architecto exercitationem tenetur, aliquid explicabo saepe eum magni sapiente deserunt mollitia praesentium fugiat autem nostrum qui nesciunt molestiae totam corporis fugit?
+</p>
+</body>
+</html>
