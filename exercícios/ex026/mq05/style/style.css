@@ -23,6 +23,7 @@ img#menu {
     display: block;
     cursor: pointer;
     margin: auto;
+    padding: 10px;
 }
 
 div#menu02 {

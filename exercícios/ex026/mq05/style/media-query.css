@@ -21,4 +21,8 @@ telas grandes: 1200px até mais
     menu > ul > li {
         display: inline-block;
     }
+
+    main {
+        width: 768px;
+    }
 }
