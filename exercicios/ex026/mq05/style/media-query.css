@@ -25,4 +25,8 @@ telas grandes: 1200px até mais
     main {
         width: 768px;
     }
+
+    span.material-symbols-outlined {
+        display: none;
+    }
 }

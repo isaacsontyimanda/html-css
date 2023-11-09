@@ -19,21 +19,6 @@ header > h1 {
     padding: 10px;
 }
 
-img#menu {
-    display: block;
-    cursor: pointer;
-    margin: auto;
-    padding: 10px;
-}
-
-div#menu02 {
-    background-color: #484848;
-}
-
-div#menu02:hover {
-    background-color: rgb(136, 135, 135);
-}
-
 menu {
     display: none;
 }
@@ -53,6 +38,19 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
+    background-color: rgb(139, 139, 139);
+}
+
+span.material-symbols-outlined {
+    display: block;
+    background-color: #505050;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+span.material-symbols-outlined:hover {
     background-color: rgb(139, 139, 139);
 }
 
